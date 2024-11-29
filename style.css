@@ -1,8 +1,20 @@
-img{
+body{
+    background-color:aquamarine;
+}
+.imgdiv img{
     height: 300px; 
     width: auto;
 }
-a{
-    font-size: 50px;
+footer h3{
+    display: inline-block;
+    border: 2px blue solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: lightblue;
     font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.imgdiv{
+    border:10px burlywood solid;
+    background-color: skyblue;
 }
