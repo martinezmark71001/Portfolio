@@ -96,17 +96,20 @@
         height: 700px;
         display:flex;
         flex-direction: row;
+        flex-basis: 100px;
+        flex-shrink: 1;
+        flex-grow: 0;
         justify-content: center;
         align-items: center;
+        gap: 30px;
         background: linear-gradient(300deg, #303291, #28283C , #333466);
         border: 1px solid #303291;
     }
     .project-item-card{
-        flex: 1;
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         border: 2px solid #E6BC00;
         border-radius: 10px;
     }
@@ -116,11 +119,12 @@
         border-radius: 10px;
     }
     .project-image{
-        height: 200px;
-        width: auto;
+        height: 150px;
     }
     .project-description{
-        height: 100px;
+        height: auto;
+        width: auto;
+        border: 1px solid red;
     }
     .project-description h3{
         color: #E6BC00;
