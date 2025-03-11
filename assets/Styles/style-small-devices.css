@@ -1,25 +1,14 @@
-@media (min-width:1080px){
+@media (min-width:400px) and (max-width: 2560px){
     .flex-layout{
         display: flex;
         flex-direction: column;
         gap: 0px;
-        background: linear-gradient(300deg, #303291, #28283C , #333466);
-        background-size: 180% 180%;
-        animation: gradient-animation 18s ease infinite;
     }
-    @keyframes gradient-animation {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    }
+    
     /* navigation-start*/
     .navigation-layout{
+        background: linear-gradient(300deg, #303291, #28283C , #333466);
+        border: 1px solid #303291;
         margin: 0;
     }
     .navbar-container{
@@ -48,6 +37,8 @@
         text-align: center;
         text-decoration: none;
         font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
     }
     .navbar-link:hover{
         color: #917F30;
@@ -62,16 +53,39 @@
         display: inline-block;
         margin: 0;
         height: 500px;
+        padding-bottom: 100px;
+        background: linear-gradient(300deg, #303291, #28283C , #333466);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
     }
-    
+    @keyframes gradient-animation {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    .hero-image-profile{
+        position: relative;
+        top: 150px;
+        left: 65px;
+        height: 200px; 
+        width: 200px; 
+        border:10px solid none; 
+        border-radius: 100%;
+    }
     
     .introduction-hero{
         position: relative;
         top: 240px;
         left: 65px;
         text-align: left;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 3rem;
-        font-family: Arial, Helvetica, sans-serif;
         color: #E6BB00;
         margin: 0;
     }
@@ -84,6 +98,8 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        background: linear-gradient(300deg, #303291, #28283C , #333466);
+        border: 1px solid #303291;
     }
     .project-item-card{
         flex: 1;
