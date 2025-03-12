@@ -16,6 +16,7 @@
     }
     .icon-button{
         display: inline-block;
+        margin-left: 50px;
     }
     .icon-button > .portfolio-icon{
         height: 100px;
@@ -78,30 +79,54 @@
         display: flex;
         flex-direction: row;
         flex-basis: 300px;
-        justify-content: center;
+        gap: 10px;
+        justify-content: space-around;
+        border: 1px solid blue;
     }
     .project-item-card{
-        height: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        border: 1px solid red;
         width: 300px;
+        padding: 30px;
+
     }
     .project-image-container{
+        border: 1px solid green;
     }
     .project-image{
+        height: 8rem;
     }
     .project-description{
+        text-align: left;
     }
     .project-description h3{
     }
     .project-clickable-link{
+        border: 1px solid blue;
+        text-align: left;
     }
     .project-clickable-link a{
+        text-decoration: none;
     }
     .project-clickable-link:hover{
+        background-color: green;
     }
     /* project-display-end */
 
     /* footer-display-start */
-    
+    .footer-display{
+        display: block;
+        height: auto;
+        border: 1px black solid;
+    }
+    .footer-holder{
+        display: inline-block;
+        position: relative;
+        left: 80px;
+    }
     /* footer-display-end */
 }
 
