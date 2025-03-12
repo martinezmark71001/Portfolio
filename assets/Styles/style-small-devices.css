@@ -1,64 +1,52 @@
 @media (min-width:400px) and (max-width: 2560px){
-    .flex-layout{
+    .flex-layout-container{
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        border: 1px solid red;
     }
     
     /* navigation-start*/
     .navigation-layout{
-        background: linear-gradient(300deg, #303291, #28283C , #333466);
-        border: 1px solid #303291;
-        margin: 0;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid blue;
     }
     .navbar-container{
-        display: flex;
-        flex-flow: row;
-        margin: 0;
-        padding: 10px 10px;
-        margin: 0;
-    }
-    .navbar-nav{
-        text-align: left;
+        display: block;
     }
     .icon-button{
+        display: inline-block;
+    }
+    .icon-button > .portfolio-icon{
+        height: 100px;
+        width: 100px;
+    }
+    .navbar-nav{
         display: inline-block;
     }
     .navbar-list{
         list-style-type: none;
         overflow: hidden;
     }
-    .navbar-list > li{
+    .navbar-list > .navbar-item{
         float: left;
         padding: 17px;
     }
     .navbar-link{
-        color: #E6BC00;
-        text-align: center;
         text-decoration: none;
-        font-size: 2rem;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
     }
     .navbar-link:hover{
-        color: #917F30;
     }
     .navbar-link:active{
-        color: #3C3828;
     }
     /* navigation-end */
     
     /* hero-layout-start */
     .hero-layout{
-        display: inline-block;
-        margin: 0;
-        height: 500px;
-        padding-bottom: 100px;
-        background: linear-gradient(300deg, #303291, #28283C , #333466);
-        background-size: 180% 180%;
-        animation: gradient-animation 18s ease infinite;
+        height: 400px;
+        display: block;
     }
-    @keyframes gradient-animation {
+    /* @keyframes gradient-animation {
         0% {
             background-position: 0% 50%;
         }
@@ -68,85 +56,52 @@
         100% {
             background-position: 0% 50%;
         }
-    }
+    } */
     .hero-image-profile{
         position: relative;
-        top: 150px;
-        left: 65px;
-        height: 200px; 
-        width: 200px; 
-        border:10px solid none; 
+        top: 100px;
+        left: 100px;
+        width: 100px;
+        height: 100px;
         border-radius: 100%;
     }
     
     .introduction-hero{
         position: relative;
-        top: 240px;
-        left: 65px;
-        text-align: left;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 3rem;
-        color: #E6BB00;
-        margin: 0;
+        top: 100px;
+        left: 100px;
     }
     /* hero-layout-end */
 
     /* project-display-start */
     .project-display-layout{
-        height: 700px;
-        display:flex;
+        display: flex;
         flex-direction: row;
-        flex-basis: 100px;
-        flex-shrink: 1;
-        flex-grow: 0;
+        flex-basis: 300px;
         justify-content: center;
-        align-items: center;
-        gap: 30px;
-        background: linear-gradient(300deg, #303291, #28283C , #333466);
-        border: 1px solid #303291;
     }
     .project-item-card{
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
-        border: 2px solid #E6BC00;
-        border-radius: 10px;
+        height: 400px;
+        width: 300px;
     }
-    .project-image-sample{
-        padding: 25% 25%;
-        border: 2px solid white;
-        border-radius: 10px;
+    .project-image-container{
     }
     .project-image{
-        height: 150px;
     }
     .project-description{
-        height: auto;
-        width: auto;
-        border: 1px solid red;
     }
     .project-description h3{
-        color: #E6BC00;
-        font-size: 1.5rem;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
     }
-    .project-clickable-link
-    {
-        background-color: #0004E6;
-        border: 2px solid red;
-        padding: 10px 30px;
+    .project-clickable-link{
     }
     .project-clickable-link a{
-        color: #E6BC00;
-        font-size: 2rem;
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
     }
     .project-clickable-link:hover{
-        background-color:green;
     }
     /* project-display-end */
+
+    /* footer-display-start */
+    
+    /* footer-display-end */
 }
 
