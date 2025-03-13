@@ -1,86 +1,99 @@
-@media (min-width:1280px){
+/* @media (min-width:1280px){ */
     .flex-layout-container{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border: 1px solid red;
     }
-    
-    /* navigation-start*/
-    .navigation-layout{
-        border: 1px solid blue;
-    }
-    .navbar-container{
-        display: flex;
-        flex-direction: row;
-        padding: 0px 80px;
-    }
-    .icon-button{
-        display: inline-block;
-    }
-    .icon-button > .portfolio-icon{
-        height: 100px;
-        width: 100px;
-    }
-    .navbar-nav{
-        display: inline-block;
-    }
-    .navbar-list{
-        list-style-type: none;
-        overflow: hidden;
-    }
-    .navbar-list > .navbar-item{
-        float: left;
-        padding: 17px;
-    }
-    .navbar-link{
-        text-decoration: none;
-    }
-    .navbar-link:hover{
-    }
-    .navbar-link:active{
-    }
-    /* navigation-end */
-    
     /* hero-layout-start */
     .hero-layout{
         height: 400px;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    /* @keyframes gradient-animation {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    } */
     .hero-image-profile{
         width: 100px;
         height: 100px;
         border-radius: 100%;
     }
     .hero-holder{
-        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .introduction-hero{
+        text-align: center;
     }
     .hero-contact-button{
-
+        padding: 10px;
+        border: 1px solid green;
+        border-radius: 20px;
+        text-decoration: none;
     }
     /* hero-layout-end */
 
-    /* project-display-start */
-    .project-display-layout{
+    /* skills-display-start */
+    .skills-display-layout{
+        display: block;
+    }
+    .skills-display-holder{
+        /* this is for the div design */
+    }
+    .skills-display-row{
+        /* this is for the div design of the display row */
+        text-align: center;
+    }
+    .skill-classification-name{
+        font-size: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .skills-display-column{
+        /* this is for the div design for the individual card*/
         display: flex;
         flex-direction: row;
-        flex-basis: 300px;
+        column-gap: 20px;
+        list-style-type: none;
+        overflow: hidden;
+    }
+    .skill-display-card{
+        margin: 20px;
+        border: 2px solid red;
+        box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+    }
+    .skills-displayed-image{
+        height: 100px;
+    }
+    .skills-name{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    /* skills-display-end */
+
+    /* project-display-start */
+    .project-display-layout{
+        display: inline-grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
         gap: 10px;
-        justify-content: space-around;
-        align-items: center;
         border: 1px solid blue;
+    }
+    .project-name{
+        padding-left: 100px;
+        grid-row: 1;
+    }
+    .project-card-holder{
+        grid-row: 2;
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 100px;
+        padding-bottom: 20px;
     }
     .project-item-card{
         display: flex;
@@ -90,7 +103,6 @@
         border: 1px solid red;
         width: 300px;
         padding: 30px;
-
     }
     .project-image-container{
         border: 1px solid green;
@@ -121,13 +133,14 @@
         height: auto;
         border: 1px black solid;
     }
+    /* contant-links-add */
     .footer-holder{
         display: block;
-        padding: 0px 80px;
+        padding: 0px 100px;
     }
     .footer-output{
         text-align: left;
     }
     /* footer-display-end */
-}
+/* } */
 
