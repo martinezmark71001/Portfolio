@@ -8,15 +8,15 @@
     }
     /* hero-layout-start */
     .hero-layout{
-        height: 400px;
+        height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .hero-image-profile{
-        width: 100px;
-        height: 100px;
+        width: 300px;
+        height: 300px;
         border-radius: 100%;
     }
     .hero-holder{
@@ -32,8 +32,9 @@
     }
     .hero-contact-button{
         padding: 10px;
-        border: 1px solid green;
+        border: 1px solid yellow;
         border-radius: 20px;
+        color: red;
         text-decoration: none;
     }
     /* hero-layout-end */
@@ -41,7 +42,7 @@
     /* skills-display-start */
     .skills-display-layout{
         color: yellow;
-        margin: 10px;
+        margin: 30px;
         border: 2px solid yellow;
         border-radius: 50px;
         box-shadow: 0 4px 10px 0 yellow, 0 6px 8px 0 yellow;
@@ -87,11 +88,15 @@
 
     /* project-display-start */
     .project-display-layout{
-        display: inline-grid;
-        grid-template-rows: auto auto;
-        grid-template-columns: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
         gap: 10px;
-        border: 1px solid blue;
+        color: yellow;
+        border: 1px yellow solid;
+        box-shadow: 0 4px 10px 0 yellow, 0 6px 8px 0 yellow;
+        border-radius: 30px;
+        margin: 30px;
     }
     .project-name{
         padding-left: 100px;
@@ -102,7 +107,6 @@
         display: flex;
         flex-direction: row;
         column-gap: 20px;
-        justify-content: flex-start;
         align-items: center;
         padding-left: 100px;
         padding-bottom: 20px;
@@ -112,7 +116,10 @@
         flex-direction: column;
         gap: 10px;
         justify-content: center;
-        border: 1px solid red;
+        align-items: center;
+        border: 1px yellow solid;
+        box-shadow: 0 4px 10px 0 yellow, 0 6px 6px 0 yellow;
+        border-radius: 30px;
         width: 300px;
         padding: 30px;
     }
@@ -128,14 +135,15 @@
     .project-description h3{
     }
     .project-clickable-link{
-        border: 1px solid blue;
         text-align: left;
     }
     .project-clickable-link a{
+        color: yellow;
         text-decoration: none;
     }
     .project-clickable-link:hover{
-        background-color: green;
+        color: red;
+        background-color: yellow;
     }
     /* project-display-end */
 
@@ -143,7 +151,11 @@
     .footer-display{
         display: block;
         height: auto;
-        border: 1px black solid;
+        border: 1px yellow solid;
+        box-shadow: 0 4px 10px 0 yellow, 0 6px 8px 0 yellow;
+        border-radius: 30px;
+        color: yellow;
+        margin: 30px;
     }
     /* contant-links-add */
     .footer-holder{
@@ -151,7 +163,20 @@
         padding: 0px 100px;
     }
     .footer-output{
-        text-align: left;
+        text-align: center;
+    }
+    .footer-links{
+        list-style-type: none;
+    }
+    .footer-individual-links{
+        float: left;
+        margin: 10px 40px;
+        padding: 10px 30px;
+        border: 2px solid yellow;
+    }
+    .footer-links{
+        text-decoration: none;
+        color: red;
     }
     /* footer-display-end */
 /* } */
