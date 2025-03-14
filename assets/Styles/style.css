@@ -4,7 +4,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
+        background-color: darkblue;
     }
     /* hero-layout-start */
     .hero-layout{
@@ -26,6 +26,8 @@
         align-items: center;
     }
     .introduction-hero{
+        color: yellow;
+        text-shadow: 0px 1px 5px black, 0px 1px 5px yellow;
         text-align: center;
     }
     .hero-contact-button{
@@ -38,7 +40,11 @@
 
     /* skills-display-start */
     .skills-display-layout{
-        display: block;
+        color: yellow;
+        margin: 10px;
+        border: 2px solid yellow;
+        border-radius: 50px;
+        box-shadow: 0 4px 10px 0 yellow, 0 6px 8px 0 yellow;
     }
     .skills-display-holder{
         /* this is for the div design */
@@ -46,30 +52,36 @@
     .skills-display-row{
         /* this is for the div design of the display row */
         text-align: center;
+        
     }
     .skill-classification-name{
         font-size: 2rem;
         font-family: 'Times New Roman', Times, serif;
     }
     .skills-display-column{
-        /* this is for the div design for the individual card*/
         display: flex;
         flex-direction: row;
-        column-gap: 20px;
+        justify-content: center;
         list-style-type: none;
         overflow: hidden;
     }
     .skill-display-card{
-        margin: 20px;
-        border: 2px solid red;
-        box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+        height: 180px;
+        width: 150px;
+        padding: 20px;
+        margin: 30px;
+        border: 2px solid navy;
+        border-radius: 20%;
+        box-shadow: 0 4px 10px 0 yellow, 0 6px 8px 0 yellow;
+        text-align: center;
     }
     .skills-displayed-image{
         height: 100px;
     }
     .skills-name{
-        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 0px 1px 5px black, 0px 1px 5px yellow;
         text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
     }
     /* skills-display-end */
 
