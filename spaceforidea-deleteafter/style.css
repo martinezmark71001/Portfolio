@@ -1,0 +1,45 @@
+.thewholearea{
+    display: block;
+
+}
+.mainbox{
+    height: 1000px;
+    width: 1000px;
+    background-color: blue;
+}
+.topleft{
+    position: absolute;
+    top: -100px;
+    left: -200px;
+    height: 300px;
+    width: 500px;
+    transform: rotate(-45deg);
+    background-color: navy;
+}
+.topright{
+    position: absolute;
+    top: -100px;
+    left: 100px;
+    height: 300px;
+    width: 500px;
+    transform: rotate(45deg);
+    background-color: navy;
+}
+.bottomleft{
+    position: absolute;
+    top: 200px;
+    left: -200px;
+    height: 300px;
+    width: 500px;
+    transform: rotate(45deg);
+    background-color: red;
+}
+.bottomright{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    height: 300px;
+    width: 500px;
+    transform: rotate(-45deg);
+    background-color: green;
+}
