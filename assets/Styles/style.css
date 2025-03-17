@@ -17,12 +17,6 @@
         justify-content: center;
         align-items: center;
     }
-    .hero-diamond-box{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
     .hero-holder{
         display: flex;
         flex-direction: column;
@@ -49,10 +43,6 @@
         text-decoration: none;
         font-family: 'Times New Roman', Times, serif;
         font-weight: bolder;
-    }
-    .hero-diamond-box:hover{
-        transform: rotate(45deg) scale(1.1);
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     }
     /* hero-layout-end */
 
@@ -164,13 +154,19 @@
         text-shadow: 0px 1px 5px black, 0px 1px 5px #FCB501;
         font-weight: bold;
         text-align: center;
+        
     }
     .project-clickable-link a{
         color: #FCB501;
+        padding: 10px;
+        background-color: whitesmoke;
+        border: 1px #062861 solid;
+        border-radius: 30%;
         text-decoration: none;
     }
     .project-clickable-link a:hover{
         color: maroon;
+        background-color: #FCB501;
         text-shadow: 0px 1px 5px black, 0px 1px 5px maroon;
     }
     /* project-display-end */
