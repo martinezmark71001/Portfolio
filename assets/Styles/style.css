@@ -10,7 +10,7 @@
     }
     /* hero-layout-start */
     .hero-layout{
-        height: 800px;
+        height: 1000px;
         width: auto;
         display: flex;
         flex-direction: column;
@@ -18,22 +18,16 @@
         align-items: center;
     }
     .hero-diamond-box{
-        height: 500px;
-        width: 500px;
-        background-color: #FCB501;
-        transform: rotate(45deg);
         display: flex;
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        transition: transform 0.3s ease-in-out;
     }
     .hero-holder{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transform: rotate(-45deg);
     }
     .hero-image-profile{
         width: 300px;
@@ -42,7 +36,7 @@
         border-radius: 100%;
     }
     .introduction-hero{
-        color: #062861;
+        color: #FCB501;
         text-shadow: 0px 1px 5px black, 0px 1px 5px whitesmoke;
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
@@ -70,9 +64,9 @@
         border-radius: 50px;
         box-shadow: 0 4px 10px 0 #FCB501, 0 6px 8px 0 #FCB501;
     }
-    .skills-display-holder{
-        /* this is for the div design */
-    }
+    /* .skills-display-holder{
+        this is for the div design
+    } */
     .skills-display-row{
         /* this is for the div design of the display row */
         /* background-color: red; */
@@ -88,7 +82,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding-right: 30px;
+        padding: 0px 30px;
         list-style-type: none;
         overflow: hidden;
     }
@@ -105,6 +99,7 @@
     }
     .skills-displayed-image{
         height: 100px;
+        width: 100px;
     }
     .skills-name{
         text-shadow: 0px 1px 5px black, 0px 1px 5px #FCB501;
@@ -153,9 +148,9 @@
         margin: 10px;
         padding: 40px 0px;
     }
-    .project-image-container{
+    /* .project-image-container{ */
         /* border: 1px solid green; */
-    }
+    /* } */
     .project-image{
         height: 8rem;
     }
