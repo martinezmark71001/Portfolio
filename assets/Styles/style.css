@@ -52,7 +52,6 @@
         margin: 30px;
         border: 2px solid #FCB501;
         border-radius: 50px;
-        box-shadow: 0 4px 10px 0 #FCB501, 0 6px 8px 0 #FCB501;
     }
     /* .skills-display-holder{
         this is for the div design
@@ -84,7 +83,6 @@
         background-color: white;
         border: 2px solid navy;
         border-radius: 20%;
-        box-shadow: 0 4px 10px 0 #FCB501, 0 6px 8px 0 #FCB501;
         text-align: center;
     }
     .skills-displayed-image{
@@ -106,7 +104,6 @@
         align-items: center;
         color: #FCB501;
         border: 2px #FCB501 solid;
-        box-shadow: 0 4px 10px 0 #FCB501, 0 6px 8px 0 #FCB501;
         border-radius: 30px;
         margin: 30px;
     }
@@ -130,9 +127,7 @@
         justify-content: center;
         align-items: center;
         background-color: white;
-        
-        border: 2px solid navy;
-        box-shadow: 0 4px 10px 0 #FCB501, 0 6px 6px 0 #FCB501;
+        border: 2px solid #FCB501;
         border-radius: 30px;
         width: 300px;
         margin: 10px;
@@ -154,20 +149,18 @@
         text-shadow: 0px 1px 5px black, 0px 1px 5px #FCB501;
         font-weight: bold;
         text-align: center;
-        
     }
     .project-clickable-link a{
+        margin: 10px;
         color: #FCB501;
         padding: 10px;
-        background-color: whitesmoke;
-        border: 1px #062861 solid;
-        border-radius: 30%;
+        box-shadow: 0px 1px .5px .5px black, 0px -1px .5px .5px black;
+        border-radius:20%;
         text-decoration: none;
     }
     .project-clickable-link a:hover{
         color: maroon;
         background-color: #FCB501;
-        text-shadow: 0px 1px 5px black, 0px 1px 5px maroon;
     }
     /* project-display-end */
 
@@ -176,7 +169,6 @@
         display: block;
         height: auto;
         border: 1px #FCB501 solid;
-        box-shadow: 0 4px 10px 0 #FCB501, 0 6px 8px 0 #FCB501;
         border-radius: 30px;
         color: #FCB501;
         margin: 30px;
